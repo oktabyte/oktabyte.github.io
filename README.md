@@ -1,0 +1,2 @@
+# oktabyte.github.io
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/158594c48a0647459a2b37dc7efbcff7)](https://app.codacy.com/app/lp.oktabyte/oktabyte.github.io?utm_source=github.com&utm_medium=referral&utm_content=oktabyte/oktabyte.github.io&utm_campaign=Badge_Grade_Settings)
