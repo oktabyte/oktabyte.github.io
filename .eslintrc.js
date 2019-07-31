@@ -256,7 +256,7 @@ module.exports = {
         "jsx-quotes": 2,
         "key-spacing": 2,
         "keyword-spacing": 2,
-        "linebreak-style": [2, "windows"],
+        "linebreak-style": 0,
         "line-comment-position": 2,
         "lines-around-comment": 2,
         "lines-around-directive": [2, { "before": "never", "after": "always" }],
