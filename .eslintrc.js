@@ -7,6 +7,12 @@ module.exports = {
         "es6": true,
         "browser": true
     },
+	"plugins": [
+	  "security"
+	],
+	"extends": [
+	  "plugin:security/recommended"
+	],
     "globals": {
 		"p5": "readonly", "LEFT_ARROW": "readonly", "RIGHT_ARROW": "readonly", "UP_ARROW": "readonly", "DOWN_ARROW": "readonly", "CENTER": "readonly", "DEGREES": "readonly",
         "alpha": "readonly", "blue": "readonly", "brightness": "readonly", "color": "readonly", "green": "readonly", "hue": "readonly", "lerpColor": "readonly", "lightness": "readonly", "red": "readonly", "saturation": "readonly",
