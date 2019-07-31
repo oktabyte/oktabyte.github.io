@@ -8,7 +8,7 @@ module.exports = {
         "browser": true
     },
     "globals": {
-		"p5": true, "LEFT_ARROW": true, "RIGHT_ARROW": true, "CENTER": true,
+		"p5": true, "LEFT_ARROW": true, "RIGHT_ARROW": true, "UP_ARROW": true, "DOWN_ARROW": true, "CENTER": true, "DEGREES": true,
         "alpha": true, "blue": true, "brightness": true, "color": true, "green": true, "hue": true, "lerpColor": true, "lightness": true, "red": true, "saturation": true,
         "background": true, "clear": true, "colorMode": true, "fill": true, "noFill": true, "noStroke": true, "stroke": true,
         
@@ -21,7 +21,7 @@ module.exports = {
         
         "HALF_PI": true, "PI": true, "QUARTER_PI": true, "TAU": true, "TWO_PI": true,
         
-        "preload": true, "setup": true, "draw": true, "remove": true, "noLoop": true, "loop": true, "push": true, "pop": true, "redraw": true,
+        "remove": true, "noLoop": true, "loop": true, "push": true, "pop": true, "redraw": true,
         
         "println": true, "frameCount": true, "focused": true, "cursor": true, "frameRate": true, "noCursor": true, "displayWidth": true, "displayHeight": true, "windowWidth": true, "windowHeight": true, "windowResized": true, "width": true, "height": true, "fullscreen": true, "pixelDensity": true, "getURL": true, "getURLPath": true, "getURLParams": true,
         

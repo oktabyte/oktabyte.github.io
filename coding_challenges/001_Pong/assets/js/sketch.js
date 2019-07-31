@@ -69,7 +69,6 @@ function handlePhysics() {
 }
 
 function reset() {
-
     ball = {
         "x": WIDTH / 2,
         "y": HEIGHT / 2,
@@ -79,7 +78,7 @@ function reset() {
 }
 
 function handlePlayerMovement() {
-    if(keyIsPressed === true) {
+    if (keyIsPressed === true) {
         if (keyCode === UP_ARROW) {
             paddelSpieler.y -= PADDEL_SPEED;
             if (paddelSpieler.y < 0) {
@@ -138,7 +137,9 @@ function handleCollisionPlayer() {
 }
 
 function handleCollisionAI() {
-    if (ball.x > WIDTH - PADDEL_WIDTH - BALL_RADIUS && ball.y > paddelAI.y && ball.y < paddelAI.y + PADDEL_HEIGHT) {
+    const paddleX = WIDTH - PADDEL_WIDTH - BALL_RADIUS;
+
+    if (ball.x > paddleX && ball.y > paddelAI.y && ball.y < paddelAI.y + PADDEL_HEIGHT) {
         ball.velo = p5.Vector.fromAngle(-90 - (ball.y - paddelAI.y) / (PADDEL_HEIGHT / 2));
         trueSpeed += SPEED_UP;
     }
@@ -146,5 +147,5 @@ function handleCollisionAI() {
     if (ball.x > WIDTH - BALL_RADIUS) {
         pointsPlayer += 1;
         reset();
-    }   
+    }
 }
