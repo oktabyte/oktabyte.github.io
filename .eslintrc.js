@@ -8,82 +8,82 @@ module.exports = {
         "browser": true
     },
     "globals": {
-		"p5": true, "LEFT_ARROW": true, "RIGHT_ARROW": true, "UP_ARROW": true, "DOWN_ARROW": true, "CENTER": true, "DEGREES": true,
-        "alpha": true, "blue": true, "brightness": true, "color": true, "green": true, "hue": true, "lerpColor": true, "lightness": true, "red": true, "saturation": true,
-        "background": true, "clear": true, "colorMode": true, "fill": true, "noFill": true, "noStroke": true, "stroke": true,
+		"p5": "readonly", "LEFT_ARROW": "readonly", "RIGHT_ARROW": "readonly", "UP_ARROW": "readonly", "DOWN_ARROW": "readonly", "CENTER": "readonly", "DEGREES": "readonly",
+        "alpha": "readonly", "blue": "readonly", "brightness": "readonly", "color": "readonly", "green": "readonly", "hue": "readonly", "lerpColor": "readonly", "lightness": "readonly", "red": "readonly", "saturation": "readonly",
+        "background": "readonly", "clear": "readonly", "colorMode": "readonly", "fill": "readonly", "noFill": "readonly", "noStroke": "readonly", "stroke": "readonly",
         
-        "arc": true, "circle": true, "ellipse": true, "line": true, "point": true, "quad": true, "rect": true, "triangle": true,
-        "ellipseMode": true, "noSmooth": true, "rectMode": true, "smooth": true, "strokeCap": true, "strokeJoin": true, "strokeWeight": true,
-        "bezier": true, "bezierPoint": true, "bezierTangent": true, "curve": true, "curveTightness": true, "curvePoint": true, "curveTangent": true,
-        "beginContour": true, "beginShape": true, "bezierVertex": true, "curveVertex": true, "endContour": true, "endShape": true, "quadraticVertex": true, "vertex": true,
-        "loadModel": true, "model": true,
-        "plane": true, "box": true, "sphere": true, "cylinder": true, "cone": true, "ellipsoid": true, "torus": true,
+        "arc": "readonly", "circle": "readonly", "ellipse": "readonly", "line": "readonly", "point": "readonly", "quad": "readonly", "rect": "readonly", "triangle": "readonly",
+        "ellipseMode": "readonly", "noSmooth": "readonly", "rectMode": "readonly", "smooth": "readonly", "strokeCap": "readonly", "strokeJoin": "readonly", "strokeWeight": "readonly",
+        "bezier": "readonly", "bezierPoint": "readonly", "bezierTangent": "readonly", "curve": "readonly", "curveTightness": "readonly", "curvePoint": "readonly", "curveTangent": "readonly",
+        "beginContour": "readonly", "beginShape": "readonly", "bezierVertex": "readonly", "curveVertex": "readonly", "endContour": "readonly", "endShape": "readonly", "quadraticVertex": "readonly", "vertex": "readonly",
+        "loadModel": "readonly", "model": "readonly",
+        "plane": "readonly", "box": "readonly", "sphere": "readonly", "cylinder": "readonly", "cone": "readonly", "ellipsoid": "readonly", "torus": "readonly",
         
-        "HALF_PI": true, "PI": true, "QUARTER_PI": true, "TAU": true, "TWO_PI": true,
+        "HALF_PI": "readonly", "PI": "readonly", "QUARTER_PI": "readonly", "TAU": "readonly", "TWO_PI": "readonly",
         
-        "remove": true, "noLoop": true, "loop": true, "push": true, "pop": true, "redraw": true,
+        "remove": "readonly", "noLoop": "readonly", "loop": "readonly", "push": "readonly", "pop": "readonly", "redraw": "readonly",
         
-        "println": true, "frameCount": true, "focused": true, "cursor": true, "frameRate": true, "noCursor": true, "displayWidth": true, "displayHeight": true, "windowWidth": true, "windowHeight": true, "windowResized": true, "width": true, "height": true, "fullscreen": true, "pixelDensity": true, "getURL": true, "getURLPath": true, "getURLParams": true,
+        "println": "readonly", "frameCount": "readonly", "focused": "readonly", "cursor": "readonly", "frameRate": "readonly", "noCursor": "readonly", "displayWidth": "readonly", "displayHeight": "readonly", "windowWidth": "readonly", "windowHeight": "readonly", "windowResized": "readonly", "width": "readonly", "height": "readonly", "fullscreen": "readonly", "pixelDensity": "readonly", "getURL": "readonly", "getURLPath": "readonly", "getURLParams": "readonly",
         
-        "p5.Element": true,
+        "p5.Element": "readonly",
         
-        "createCanvas": true, "resizeCanvas": true, "noCanvas": true, "createGraphics": true, "blendMode": true,
+        "createCanvas": "readonly", "resizeCanvas": "readonly", "noCanvas": "readonly", "createGraphics": "readonly", "blendMode": "readonly",
         
-        "applyMatrix": true, "resetMatrix": true, "rotate": true, "rotateX": true, "rotateY": true, "rotateZ": true, "scale": true, "shearX": true, "shearY": true, "translate": true,
+        "applyMatrix": "readonly", "resetMatrix": "readonly", "rotate": "readonly", "rotateX": "readonly", "rotateY": "readonly", "rotateZ": "readonly", "scale": "readonly", "shearX": "readonly", "shearY": "readonly", "translate": "readonly",
         
-        "devieOrientation": true, "accelerationX": true, "accelerationY": true, "accelerationZ": true, "pAccelerationX": true, "pAccelerationY": true, "pAccelerationZ": true, "rotationX": true, "rotationY": true, "rotationZ": true, "pRotationX": true, "pRotationY": true, "pRotationZ": true, "setMoveThreshold": true, "setShakeThreshold": true, "deviceMoved": true, "deviceTurned": true, "deviceShaken": true,
+        "devieOrientation": "readonly", "accelerationX": "readonly", "accelerationY": "readonly", "accelerationZ": "readonly", "pAccelerationX": "readonly", "pAccelerationY": "readonly", "pAccelerationZ": "readonly", "rotationX": "readonly", "rotationY": "readonly", "rotationZ": "readonly", "pRotationX": "readonly", "pRotationY": "readonly", "pRotationZ": "readonly", "setMoveThreshold": "readonly", "setShakeThreshold": "readonly", "deviceMoved": "readonly", "deviceTurned": "readonly", "deviceShaken": "readonly",
         
-        "keyIsPressed": true, "key": true, "keyCode": true, "keyPressed": true, "keyReleased": true, "keyTyped": true, "keyIsDown": true,
+        "keyIsPressed": "readonly", "key": "readonly", "keyCode": "readonly", "keyPressed": "readonly", "keyReleased": "readonly", "keyTyped": "readonly", "keyIsDown": "readonly",
         
-        "mouseX": true, "mouseY": true, "pmouseX": true, "pmouseY": true, "winMouseX": true, "winMouseY": true, "pwinMouseX": true, "pwinMouseY": true, "mouseButton": true, "mouseIsPressed": true, "mouseMoved": true, "mouseDragged": true, "mousePressed": true, "mouseReleased": true, "mouseClicked": true, "mouseWheel": true,
+        "mouseX": "readonly", "mouseY": "readonly", "pmouseX": "readonly", "pmouseY": "readonly", "winMouseX": "readonly", "winMouseY": "readonly", "pwinMouseX": "readonly", "pwinMouseY": "readonly", "mouseButton": "readonly", "mouseIsPressed": "readonly", "mouseMoved": "readonly", "mouseDragged": "readonly", "mousePressed": "readonly", "mouseReleased": "readonly", "mouseClicked": "readonly", "mouseWheel": "readonly",
         
-        "touchX": true, "touchY": true, "ptouchX": true, "ptouchY": true, "touches": true, "touchIsDown": true, "touchStarted": true, "toucheMoved": true, "touchEnded": true,
+        "touchX": "readonly", "touchY": "readonly", "ptouchX": "readonly", "ptouchY": "readonly", "touches": "readonly", "touchIsDown": "readonly", "touchStarted": "readonly", "toucheMoved": "readonly", "touchEnded": "readonly",
         
-        "createImage": true, "saveCanvas": true, "saveFrames": true, "p5.Image": true,
+        "createImage": "readonly", "saveCanvas": "readonly", "saveFrames": "readonly", "p5.Image": "readonly",
         
-        "loadImage": true, "image": true, "tint": true, "noTint": true, "imageMode": true,
+        "loadImage": "readonly", "image": "readonly", "tint": "readonly", "noTint": "readonly", "imageMode": "readonly",
         
-        "pixels": true, "blend": true, "copy": true, "filter": true, "get": true, "loadPixels": true, "set": true, "updatePixels": true,
+        "pixels": "readonly", "blend": "readonly", "copy": "readonly", "filter": "readonly", "get": "readonly", "loadPixels": "readonly", "set": "readonly", "updatePixels": "readonly",
         
-        "loadFont": true, "loadJSON": true, "loadStrings": true, "loadTable": true, "loadXML": true, "httpGet": true, "httpPost": true, "httpDo": true,
+        "loadFont": "readonly", "loadJSON": "readonly", "loadStrings": "readonly", "loadTable": "readonly", "loadXML": "readonly", "httpGet": "readonly", "httpPost": "readonly", "httpDo": "readonly",
         
-        "save": true, "saveJSON": true, "saveStrings": true, "saveTable": true,
+        "save": "readonly", "saveJSON": "readonly", "saveStrings": "readonly", "saveTable": "readonly",
         
-        "p5.Table": true, "p5.TableRow": true,
+        "p5.Table": "readonly", "p5.TableRow": "readonly",
         
-        "p5.XML": true,
+        "p5.XML": "readonly",
         
-        "day": true, "hour": true, "minute": true, "millis": true, "month": true, "second": true, "year": true,
+        "day": "readonly", "hour": "readonly", "minute": "readonly", "millis": "readonly", "month": "readonly", "second": "readonly", "year": "readonly",
         
-        "createVector": true, "p5.Vector": true,
+        "createVector": "readonly", "p5.Vector": "readonly",
         
-        "abs": true, "ceil": true, "constrain": true, "dist": true, "exp": true, "floor": true, "lerp": true, "log": true, "mag": true, "map": true, "max": true, "min": true, "norm": true, "pow": true, "round": true, "sq": true, "sqrt": true,
+        "abs": "readonly", "ceil": "readonly", "constrain": "readonly", "dist": "readonly", "exp": "readonly", "floor": "readonly", "lerp": "readonly", "log": "readonly", "mag": "readonly", "map": "readonly", "max": "readonly", "min": "readonly", "norm": "readonly", "pow": "readonly", "round": "readonly", "sq": "readonly", "sqrt": "readonly",
         
-        "noise": true, "noiseDetail": true, "noiseSeed": true,
+        "noise": "readonly", "noiseDetail": "readonly", "noiseSeed": "readonly",
         
-        "randomSeed": true, "random": true, "randomGaussian": true,
+        "randomSeed": "readonly", "random": "readonly", "randomGaussian": "readonly",
         
-        "acos": true, "asin": true, "atan": true, "atan2": true, "cos": true, "sin": true, "tan": true, "degrees": true, "radians": true, "angleMode": true,
+        "acos": "readonly", "asin": "readonly", "atan": "readonly", "atan2": "readonly", "cos": "readonly", "sin": "readonly", "tan": "readonly", "degrees": "readonly", "radians": "readonly", "angleMode": "readonly",
         
-        "textAlign": true, "textLeading": true, "textSize": true, "textStyle": true, "textWidh": true,
+        "textAlign": "readonly", "textLeading": "readonly", "textSize": "readonly", "textStyle": "readonly", "textWidh": "readonly",
         
-        "text": true, "textFont": true,
+        "text": "readonly", "textFont": "readonly",
         
-        "p5.Font": true,
+        "p5.Font": "readonly",
         
-        "append": true, "arrayCopy": true, "concat": true, "reverse": true, "shorten": true, "shuffle": true, "sort": true, "splice": true, "subset": true,
+        "append": "readonly", "arrayCopy": "readonly", "concat": "readonly", "reverse": "readonly", "shorten": "readonly", "shuffle": "readonly", "sort": "readonly", "splice": "readonly", "subset": "readonly",
         
-        "float": true, "int": true, "str": true, "boolean": true, "byte": true, "char": true, "unchar": true, "hex": true, "unhex": true,
+        "float": "readonly", "int": "readonly", "str": "readonly", "boolean": "readonly", "byte": "readonly", "char": "readonly", "unchar": "readonly", "hex": "readonly", "unhex": "readonly",
         
-        "join": true, "match": true, "matchAll": true, "nf": true, "nfc": true, "nfp": true, "nfs": true, "split": true, "splitTokens": true, "trim": true,
+        "join": "readonly", "match": "readonly", "matchAll": "readonly", "nf": "readonly", "nfc": "readonly", "nfp": "readonly", "nfs": "readonly", "split": "readonly", "splitTokens": "readonly", "trim": "readonly",
         
-        "camera": true, "perspective": true, "ortho": true,
+        "camera": "readonly", "perspective": "readonly", "ortho": "readonly",
         
-        "ambientLight": true, "directionalLight": true, "pointLight": true,
+        "ambientLight": "readonly", "directionalLight": "readonly", "pointLight": "readonly",
         
-        "normalMaterial": true, "texture": true, "ambientMaterial": true, "specularMaterial": true,
+        "normalMaterial": "readonly", "texture": "readonly", "ambientMaterial": "readonly", "specularMaterial": "readonly",
         
-        "p5.RendererGL": true
+        "p5.RendererGL": "readonly"
     },
     "rules": {
         "no-alert": 2,
