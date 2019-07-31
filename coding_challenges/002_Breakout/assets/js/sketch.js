@@ -1,3 +1,4 @@
+/* eslint-disable scanjs-rules/call_hide */
 /* eslint-disable no-magic-numbers, no-native-reassign, no-global-assign*/
 /* exported setup, draw, preload, brickimg, paddleImg*/
 /* global SSCD, Brick, PADDLE_WIDTH, PADDLE_HEIGHT, Player, BRICK_WIDTH, BRICK_HEIGHT*/
