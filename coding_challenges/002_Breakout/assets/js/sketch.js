@@ -53,7 +53,7 @@ function draw() {
         push();
         fill(255, 0, 0);
         textSize(100);
-        text(`YOU WIN!!!`, WIDTH / 2, HEIGHT / 2 - 50);
+        text("YOU WIN!!!", WIDTH / 2, HEIGHT / 2 - 50);
         text(`Score: ${score}`, WIDTH / 2, HEIGHT / 2 + 50);
         pop();
         noLoop();
