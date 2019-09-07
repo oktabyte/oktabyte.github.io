@@ -41,7 +41,7 @@ module.exports = {
         
         "keyIsPressed": "readonly", "key": "readonly", "keyCode": "readonly", "keyPressed": "readonly", "keyReleased": "readonly", "keyTyped": "readonly", "keyIsDown": "readonly",
         
-        "mouseX": "readonly", "mouseY": "readonly", "pmouseX": "readonly", "pmouseY": "readonly", "winMouseX": "readonly", "winMouseY": "readonly", "pwinMouseX": "readonly", "pwinMouseY": "readonly", "mouseButton": "readonly", "mouseIsPressed": "readonly", "mouseMoved": "readonly", "mouseDragged": "readonly", "mousePressed": "readonly", "mouseReleased": "readonly", "mouseClicked": "readonly", "mouseWheel": "readonly",
+        "mouseX": "readonly", "mouseY": "readonly", "pmouseX": "readonly", "pmouseY": "readonly", "winMouseX": "readonly", "winMouseY": "readonly", "pwinMouseX": "readonly", "pwinMouseY": "readonly", "mouseButton": "readonly", "mouseIsPressed": "readonly",
         
         "touchX": "readonly", "touchY": "readonly", "ptouchX": "readonly", "ptouchY": "readonly", "touches": "readonly", "touchIsDown": "readonly", "touchStarted": "readonly", "toucheMoved": "readonly", "touchEnded": "readonly",
         
